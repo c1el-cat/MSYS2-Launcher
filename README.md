@@ -12,5 +12,5 @@ Please run the following command in PowerShell.
 It's pwsh. It's not cmd.
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm (https://github.com/c1el-cat/MSYS2-Launcher/raw/refs/heads/main/install.ps1 | iex
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm https://github.com/c1el-cat/MSYS2-Launcher/raw/refs/heads/main/install.ps1 | iex
 ```
