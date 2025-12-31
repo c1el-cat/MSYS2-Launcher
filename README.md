@@ -2,10 +2,11 @@
 A simple MSYS2 launcher for Windows Terminal.
 I'm not criticizing MSYS2, but doesn't it have too many unnecessary options that make it confusing? - I agree.
 
-So, I created a PowerShell script that makes it super easy to select WSYS2 startup options from Windows Terminal (wt.exe).
+So, I created a PowerShell script that makes it super easy to select MSYS2 startup options from Windows Terminal (wt.exe).
 
 Here is a sample.
 <img width="1770" height="964" alt="image" src="https://github.com/user-attachments/assets/b8d90f6f-8e1d-43ec-afa4-6209328abc77" />
+<img width="885" height="482" alt="image1-fix" src="https://github.com/user-attachments/assets/9e6b94cb-6e73-455e-a3c5-253fc1036a9a" />
 
 ## How to install
 I created a simple PowerShell script that can be easily installed.
