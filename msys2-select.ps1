@@ -1,3 +1,6 @@
+# きれいさっぱり
+Clear-Host
+
 # MSYS2探す
 $msysRoot = Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall, HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall |
     Get-ItemProperty |
@@ -53,5 +56,8 @@ if ($index -lt 0 -or $index -ge $options.Count) { $index = 0 }
 $selected = $options[$index].Arg
 Write-Host "Launching MSYS2 $selected from $msysRoot..." -ForegroundColor Green
 
+# きれいさっぱり
+Clear-Host
+
 # 起動
-Start-Process "$msysShell" -ArgumentList "-defterm", "-no-start", $selected -Wait
+& "$msysShell" -defterm -no-start $selected
